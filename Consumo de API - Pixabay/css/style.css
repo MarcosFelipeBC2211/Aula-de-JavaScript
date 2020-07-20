@@ -1,0 +1,154 @@
+body{
+    background-image: url(../imagens/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-device-width: 1300px){
+    
+#divBoxTitulo{
+    width: 500px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#pTitle{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-family: "times new roman";
+    padding-top: 17px;
+}
+
+#divBoxInput{
+    width: 500px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-top: 220px; 
+    margin-left: 40px;
+    float: left;
+    text-align-last: center;
+}
+
+#divBoxLocalPesquisa, #divBoxLocalPesquisaAlternativa{
+    width: 700px;
+    height: 500px;
+    float: left;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 20px;
+    text-align-last: center;
+}
+
+#divBoxLocalPesquisaAlternativa{
+    float: right;
+    margin-right: 67px;
+    margin-bottom: 60px;
+}
+
+#campoPesquisa{
+    width: 380px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 7px;
+    float: left;
+    margin-left: 2px;
+}
+
+#botaoPesquisa{
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-left: 3.5px;
+    margin-top: 11px;
+    border-radius: 10px;
+}
+
+#imagemResultado, #imagemResultadoAlternativa{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+    
+}
+
+@media only screen and (max-device-width: 500px){
+    
+    #divBoxTitulo{
+    width: 400px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+    #pTitle{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-family: "times new roman";
+    padding-top: 10px;
+}
+    
+    #divBoxInput{
+    width: 500px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-top: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align-last: center;
+}
+
+    #campoPesquisa{
+    width: 380px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 7px;
+    float: left;
+    margin-left: 2px;
+}
+
+    #botaoPesquisa{
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-left: 3.5px;
+    margin-top: 11px;
+    border-radius: 10px;
+}
+
+    #divBoxLocalPesquisa, #divBoxLocalPesquisaAlternativa{
+    width: 500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 100px;
+    text-align-last: center;
+}
+    
+    #divBoxLocalPesquisaAlternativa{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+    
+    #imagemResultado, #imagemResultadoAlternativa{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
+    
+}
