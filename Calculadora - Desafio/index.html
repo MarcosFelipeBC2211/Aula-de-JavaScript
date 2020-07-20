@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+    </head>
+    <body>
+        <header>
+            <div id="divTitulo"><p id="pTitulo">Calculadora</p></div>
+        </header>
+
+        <div id="divMainCalculadoraSimples">
+                <div id="divVisorCalculadoraSimples"><textarea id="display" disabled rows="1"></textarea></div>
+
+                <div class="divContainerBotoes">
+                    <button class="botao numeros" onclick="pressNum(this)">1</button>
+                    <button class="botao numeros" onclick="pressNum(this)">2</button>
+                    <button class="botao numeros" onclick="pressNum(this)">3</button>
+                    <button class="botao operadores" onclick="pressOperator(this)">+</button>
+                </div>
+                <div class="divContainerBotoes">
+                    <button class="botao numeros" onclick="pressNum(this)">4</button>
+                    <button class="botao numeros" onclick="pressNum(this)">5</button>
+                    <button class="botao numeros" onclick="pressNum(this)">6</button>
+                    <button class="botao operadores" onclick="pressOperator(this)">-</button>
+                </div>
+                <div class="divContainerBotoes">
+                    <button class="botao numeros" onclick="pressNum(this)">7</button>
+                    <button class="botao numeros" onclick="pressNum(this)">8</button>
+                    <button class="botao numeros" onclick="pressNum(this)">9</button>
+                    <button class="botao operadores" onclick="pressOperator(this)">*</button>
+                </div>
+                <div class="divContainerBotoes">
+                    <button class="botao numeros" onclick="pressNum(this)">0</button>
+                    <button class="botao especiais" onclick="pressNum(this)">.</button>
+                    <button class="botao especiais" onclick="clearAll(this)">C</button>
+                    <button class="botao operadores" onclick="pressOperator(this)">/</button>
+                </div>  
+                    <button id="igualdade" onclick="pressEqual()">=</button>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
