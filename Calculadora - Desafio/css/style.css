@@ -1,0 +1,85 @@
+body{
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+}
+
+#divTitulo{
+    color: #ffffff;
+    text-align-last: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 100%;
+}
+
+#pTitulo{
+    font-size: 70px;
+}
+
+#igualdade{
+    margin-top: 10px;
+    width: 95%;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#igualdade:hover{
+    background-color: rgb(236, 142, 142);
+}
+
+#divMainCalculadoraSimples{
+    width: 500px;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divVisorCalculadoraSimples{
+    width: 100%;
+    height: 50px;
+}
+
+#display{
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 29px;
+    font-family: Sylfaen;
+    resize: none;
+    overflow: hidden;
+}
+
+.botao{
+    width: 115px;
+    height: 50px;
+    text-align-last: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.numeros:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.operadores:hover{
+    cursor: pointer;
+    background-color: rgb(204, 243, 145);
+}
+
+.especiais:hover{
+    cursor: pointer;
+    background-color: rgb(255, 190, 115);
+}
+
